@@ -1,0 +1,28 @@
+{
+  "name": "vue-bigemap",
+  "version": "0.0.1",
+  "main": "dist/bigeMap.umd.js",
+  "module": "dist/bigeMap.mjs",
+  "files": [
+    "dist"
+  ],
+  "description": "基于Vue3.0、bigemap的地图组件",
+  "author": "shuaiyang",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.10",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-libcss": "^1.1.1",
+    "vite-plugin-style-inject": "^0.0.1",
+    "vue-tsc": "^2.0.6"
+  }
+}
